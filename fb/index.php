@@ -3,8 +3,8 @@
 require 'facebooklib/facebook.php';
 include_once("../config.php");
 $config = array();
-$config['appId'] = '177478695705807'; //your application id 
-$config['secret'] = 'ac092d5116b5e37b48c24ca6edf7135d'; //your application secret 
+$config['appId'] = ''; //your application id 
+$config['secret'] = ''; //your application secret 
 
 //facebook class object 
 $facebook = new Facebook($config);
